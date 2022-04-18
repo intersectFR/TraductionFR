@@ -1,0 +1,747 @@
+﻿{
+  "Account": {
+    "adminonly": "Le serveur n'autorise actuellement que les administrateurs à être connectés. Veuillez Revenir plus tard!",
+    "alreadybanned": "{00} a déjà été banni!",
+    "alreadymuted": "{00} est déjà aphone!",
+    "badaccess": "Accès refusé! Niveau d'accréditation invalide!",
+    "badlogin": "Nom d'utilisateur ou mot de passe incorrect.",
+    "banned": "{00} a été banni!",
+    "banstatus": "Votre compte est banni depuis: {00} (UTC) par {01}. Fin bannissement: {02} (UTC). Raison de bannissement: {03}",
+    "characterexists": "Un compte avec ce nom existe déjà. Veuillez en choisir un nouveau.",
+    "deletechar": "Le personnage a été effacé.",
+    "deleted": "Effacer Personnage",
+    "deletecharerror": "Ce personnage ne peut pas être effacé, Il est probablement coincé en ligne en combat.",
+    "deletederror": "Erreur Effacement Personnage",
+    "doesnotexist": "Ce compte n'existe pas.",
+    "emailexists": "Un compte utilisant cette adresse E-mail existe déjà.",
+    "exists": "Ce compte existe déjà!",
+    "invalidclass": "Classe sélectionnée invalide. Essayez à nouveau.",
+    "invalidemail": "L'E-mail choisi ne rempli pas les pré-requis imposés par le serveur.",
+    "invalidname": "Le nom choisi ne rempli pas les pré-requis imposés par le serveur.",
+    "loadfail": "Echec du chargement du compte. Essayez de vous connecter à nouveau.",
+    "maxchars": "Vous avez déjà créé le maximum de personnages. Veuillez en effacer un avant d'en créer un nouveau.",
+    "muted": "{00} est devenu aphone!",
+    "mutestatus": "Votre compte a été mis sous silence depuis: {00} par {01}. Fin mise sous silence: {02}. Raison mise sous silence: {03}",
+    "notfound": "Erreur: Le compte {00} n'a pas été trouvé!",
+    "registrationsblocked": "Les enregistrements de compte sont actuellement bloqués par le serveur.",
+    "unbanned": "Le compte {00} a été débanni!",
+    "unmuted": "{00} a retrouvé la parole!",
+    "emailfail": "Echec de l'envoi de l'E-mail de réinitialisation de votre mot de passe. Veuillez réessayer plus tard."
+  },
+  "Bags": {
+    "baginbag": "Vous ne pouvez pas ranger un sac dans un autre sac!",
+    "baginself": "Vous ne pouvez pas ranger un sac à l'intérieur de lui-même!",
+    "bagnospace": "Il n'y a plus de place libre dans votre inventaire pour cet objet!",
+    "depositinvalid": "Objet à ranger sélectionné invalide!",
+    "dropnotempty": "Vous ne pouvez pas jeter un sac tant qu'il n'est pas vide!",
+    "inventorynospace": "Il n'y a pas de place dans votre inventaire pour cet objet!",
+    "onlysellempty": "Vous ne pouvez pas vendre un sac tant qu'il n'est pas vide!",
+    "onlytradeempty": "Vous ne pouvez pas échanger un sac tant qu'il n'est pas vide!",
+    "tradebound": "Vous ne pouvez pas vendre un objet lié!",
+    "withdrawinvalid": "Objet à retirer sélectionné invalide!"
+  },
+  "Banks": {
+    "banknospace": "Il n'y a pas de place dans votre banque pour cet objet!",
+    "depositinvalid": "Objet à déposer sélectionné invalide!",
+    "inventorynospace": "Il n'y a plus de place libre dans votre inventaire pour cet objet!",
+    "withdrawinvalid": "Objet à jeter sélectionné invalide!"
+  },
+  "Chat": {
+    "admin": "[ADMIN] {00}: {01}",
+    "admincmd": "/admin",
+    "allcmd": "/tous",
+    "announcement": "[ANNONCE] {00}: {01}",
+    "announcementcmd": "/annonce",
+    "global": "[GLOBAL] {00}: {01}",
+    "globalcmd": "/global",
+    "local": "{00}: {01}",
+    "localcmd": "/local",
+    "messagecmd": "/message",
+    "party": "[EQUIPE] {00}: {01}",
+    "partycmd": "/equipe",
+    "pmcmd": "/pm",
+    "private": "[PM] {00}: {01}",
+    "rcmd": "/r",
+    "replycmd": "/reponse",
+    "toofast": "Vous parlez trop vite!"
+  },
+  "Classes": {
+    "lastclass": "Dernière Classe",
+    "lastclasserror": "Echec de la suppression de la classe, Vous devez au moins en posséder une en permanence!"
+  },
+  "Colors": {
+    "presets": {
+      "0": "Noir",
+      "1": "Blanc",
+      "2": "Rose",
+      "3": "Bleu",
+      "4": "Rouge",
+      "5": "Vert",
+      "6": "Jaune",
+      "7": "Orange",
+      "8": "Violet",
+      "9": "Gris",
+      "10": "Cyan"
+    }
+  },
+  "Combat": {
+    "addsymbol": "+",
+    "blocked": "BLOQUE!",
+    "channeling": "Vous êtes actuellement en train d'enchaîner une autre compétence.",
+    "channelingnoattack": "Vous êtes actuellement en train d'enchainer un sort, vous ne pouvez pas attaquer.",
+    "cooldown": "Cette compétence se recharge.",
+    "critical": "COUP CRITIQUE!",
+    "damagetypes": {
+      "0": "Physique",
+      "1": "Magique",
+      "2": "True"
+    },
+    "dash": "RUEE!",
+    "dynamicreq": "Vous ne remplissez pas les pré-requis pour lancer ce sort!",
+    "exp": "Expérience",
+    "invulnerable": "INVULNERABLE!",
+    "levelreq": "Vous n'êtes pas à un niveau suffisant pour utiliser cette compétence.",
+    "levelup": "NIVEAU SUPERIEUR!",
+    "lowhealth": "Pas assez de santé.",
+    "lowmana": "Pas assez de mana.",
+    "miss": "RATE!",
+    "notarget": "Pas de Cible!",
+    "removesymbol": "-",
+    "resourcereqs": "Vous ne remplissez pas les pré-requis pour collecter cette ressource!",
+    "silenced": "Vous ne pouvez pas utiliser cette compétence en étant muet.",
+    "sleep": "Vous ne pouvez pas utiliser cette compétence en étant endormi",
+    "sleepattacking": "Vous dormez et ne pouvez pas attaquer.",
+    "sleepblocking": "Vous dormez et ne pouvez pas bloquer.",
+    "statreq": "Vous ne possédez pas les statistiques de combat correctes pour utiliser cette compétence.",
+    "stats": {
+      "0": "Attaque",
+      "1": "Niveau de Compétence",
+      "2": "Défense",
+      "3": "Résistance Magique",
+      "4": "Vitesse"
+    },
+    "status": {
+      "0": "AUCUN!",
+      "1": "APHONE!",
+      "2": "ASSOMME!",
+      "3": "PIEGE!",
+      "4": "AVEUGLE!",
+      "5": "CACHE!",
+      "6": "TRANSFORME!",
+      "7": "REVIGORE!",
+      "8": "INVULNERABLE!",
+      "9": "PROTEGE!",
+      "10": "ENDORMI!",
+      "11": "IMPACTE!",
+      "12": "ENRAGE!"
+    },
+    "stunattacking": "Vous êtes assommé et ne pouvez pas attaquer.",
+    "stunblocking": "Vous êtes assommé et ne pouvez pas bloquer.",
+    "stunned": "Vous ne pouvez lancer cette compétence tant que vous êtes assommé.",
+    "targetoutsiderange": "La cible est hors de protée!",
+    "toolrequired": "Vous avez besoin d'une {00} pour intéragir avec cette ressource!",
+    "tryforgetboundspell": "Vous ne pouvez pas oublier ce sort.",
+    "vitals": {
+      "0": "Santé",
+      "1": "Mana"
+    }
+  },
+  "Commandoutput": {
+    "apigranted": "{00} a maintenant accès à l'api!",
+    "apirevoked": "{00} a eu son accès a l'api révoqué!",
+    "apirolegranted": "{00} a maintenant le rôle de {01} api!",
+    "apirolenotfound": "Rôle api {00} non trouvé!",
+    "apirolenotgranted": "Echec de l'assignation de rôle api {00}, l'accès à l'api doit d'abord être activé pour {01}!",
+    "apiroleprereq": "Le rôle Api {00} ne peut pas être autorisé! Dépend du rôle de {01}.",
+    "apirolerevoked": "{00} a eu son rôle {01} api révoqué!",
+    "apiroles": "Rôle api pour {00}:",
+    "cps": "CPS Actuel: {00}",
+    "cpslocked": "CPS Bloqué",
+    "cpsunlocked": "CPS Débloqué",
+    "ExperimentalFeatureEnablement": "{00} est {01}.",
+    "gametime": "Le temps de jeu est maintenant: {00}",
+    "helpfooter": "Tapez n'importe quelle commande suivie de {00} pour les paramêtres et les informations d'utilisation.",
+    "helpheader": "Liste des commandes disponibles:",
+    "invalidparameters": "commande paramêtres invalide! Utilisez {00} pour avoir plus d'information sur une commande.",
+    "killsuccess": "{00} a été tué!",
+    "listaccount": "Compte",
+    "listcharacter": "Personnage",
+    "listid": "ID",
+    "metricsenabled": "Collecte de mesures activée",
+    "metricsdisabled": "Collecte de mesures désactivée",
+    "notfound": "Commande non reconnue. Entrez aide pour une liste de commandes. Rappelez vous que les commandes de la console sont sensibles aux majuscules et minuscules!",
+    "parseerror": "Erreur d'analyse: Les paramêtres ne peuvent pas être lus. Tapez {00} {01} pour les informations d'utilisation.",
+    "playercount": "Le serveur a {00} joueurs enregistrés.",
+    "powerchanged": "L'accréditation de {00} a été modifiée!",
+    "powerlevel": "L'accréditation de {00} a été changé à {01}!",
+    "syntaxerror": "Erreur de syntaxe: Le paramêtre demandé n'a pas été trouvé. Tapez {00} {01} pour les informations d'utilisation."
+  },
+  "Commands": {
+    "Announcement": {
+      "Help": "envoyer un message global à tous les joueurs",
+      "Description": "Envoyer un message à tous les utilisateurs jouant au jeu.",
+      "Name": "annonce"
+    },
+    "Api": {
+      "Help": "active ou désactive l'accès api pour un compte",
+      "Description": "Règle l'accès api (activé/désactivé) du compte sélectionné. si true il est activé, si false il est désactivé",
+      "Name": "api"
+    },
+    "ApiGrant": {
+      "Help": "Autorise accès à un rôle supplémentaire d'api pour un compte. (Options: users.query, users.manage)",
+      "Description": "Autorise accès à un rôle supplémentaire d'api pour un utilisateur. (Options: users.query, users.manage)",
+      "Name": "apigrant"
+    },
+    "ApiRevoke": {
+      "Help": "Révoque accès à un rôle supplémentaire d'api pour un compte. (Options: users.query, users.manage)",
+      "Description": "Autorise accès à un rôle supplémentaire d'api pour un utilisateur. (Options: users.query, users.manage)",
+      "Name": "apirevoke"
+    },
+    "ApiRoles": {
+      "Help": "Liste des rôles supplémentaires api pour un compte (Options: users.query, users.manage)",
+      "Description": "Liste des rôles supplémentaires api pour un utilisateur.",
+      "Name": "apiroles"
+    },
+    "Arguments": {
+      "AccessBoolean": {
+        "Description": "que ce soit ou non d'autoriser/révoquer l'accès",
+        "Name": "access"
+      },
+      "AnnouncementMessage": {
+        "Description": "le message à envoyer",
+        "Name": "message"
+      },
+      "ApiRole": {
+        "Description": "rôle d'autoriser ou révoquer (users.query or users.manage)",
+        "Name": "role"
+      },
+      "CpsLock": "bloqué",
+      "CpsOperation": {
+        "Description": "un des suivants: statut, bloqué, débloqué",
+        "Name": "operation"
+      },
+      "CpsStatus": "statut",
+      "CpsUnlock": "débloquer",
+      "DurationBan": {
+        "Description": "durée du bannissement (en jours)",
+        "Name": "duration"
+      },
+      "DurationMute": {
+        "Description": "durée de la mise sous silence (en jours)",
+        "Name": "duration"
+      },
+      "EnablementBoolean": {
+        "Description": "que ce soit ou non activé",
+        "Name": "enablement"
+      },
+      "Help": {
+        "ShortName": "h",
+        "Description": "montre ce message d'aide",
+        "Name": "help"
+      },
+      "IpBan": {
+        "Description": "si c'est un ban IP (true/false)",
+        "Name": "ip-ban"
+      },
+      "IpMute": {
+        "Description": "si c'est une mise sous silence IP (true/false)",
+        "Name": "ip-ban"
+      },
+      "MetricsDisable": "désactivé",
+      "MetricsOperation": {
+        "Description": "un des suivants: disable, enable",
+        "Name": "operation"
+      },
+      "MetricsEnable": "activé",
+      "Power": {
+        "Description": "Le niveau d'accréditation à assigner",
+        "Name": "access"
+      },
+      "ReasonBan": {
+        "Description": "La raison du bannissement",
+        "Name": "reason"
+      },
+      "ReasonMute": {
+        "Description": "La raison de la mise sous silence",
+        "Name": "reason"
+      },
+      "TargetApi": {
+        "Description": "le nom du compte dont l'accès API doit être changé",
+        "Name": "account-name"
+      },
+      "TargetBan": {
+        "Description": "Le nom du joueur à bannir",
+        "Name": "player-name"
+      },
+      "TargetExperimentalFeature": {
+        "Description": "Le GUID ou le nom de la fonctionnalité expérimentale à configurer",
+        "Name": "experimental-feature-name-or-id"
+      },
+      "TargetKick": {
+        "Description": "Le nom du joueur à éjecter",
+        "Name": "player-name"
+      },
+      "TargetKill": {
+        "Description": "Le nom du joueur à tuer",
+        "Name": "player-name"
+      },
+      "TargetMute": {
+        "Description": "Le nom du joueur à mettre sous silence",
+        "Name": "player-name"
+      },
+      "TargetPower": {
+        "Description": "Le nom du joueur dont l'accès doit être changé",
+        "Name": "player-name"
+      },
+      "TargetPowerAccount": {
+        "Description": "Le nom du compte dont l'accès doit être changé",
+        "Name": "account-name"
+      },
+      "TargetUnban": {
+        "Description": "Le nom du joueur à débannir",
+        "Name": "player-name"
+      },
+      "TargetUnmute": {
+        "Description": "Le nom du joueur à qui rendre la parole",
+        "Name": "player-name"
+      }
+    },
+    "Ban": {
+      "Help": "Banni un joueur du serveur",
+      "Description": "Banni un joueur du serveur.",
+      "Name": "ban"
+    },
+    "banuser": "console",
+    "commandinfo": "/?",
+    "Cps": {
+      "Help": "Affiche l'actuel serveur cps",
+      "Description": "Affiche l'actuel CPS. Le label de statut indique si la boucle de serveur est bloquée ou non. L'indicateur de blocage bloque le cps alors que l'indicateur de déblocage le débloque.",
+      "Name": "cps"
+    },
+    "Exit": {
+      "Help": "Ferme le serveur",
+      "Description": "Ferme complètement le serveur.",
+      "Name": "exit"
+    },
+    "exited": "Fermeture du serveur principal complète. Si votre serveur est bloqué vous devriez pouvoir le couper sans encombres.",
+    "exiting": "Le serveur se ferme maintenant. Veuillez patienter pendant que vos données jeu et joueur sont sauvegardées!",
+    "ExperimentalFlagNotFound": "L'indicateur expérimental '{00}' n'a pas été trouvé!",
+    "Experiments": {
+      "Help": "active ou désactive une fonctionnalité expérimentale",
+      "Description": "règle l'activation d'une fonctionnalité expérimentale. Si true elle est activée, si false elle est désactivée.",
+      "Name": "experiments"
+    },
+    "FlagInfo": "(indicateur)",
+    "Help": {
+      "Help": "Affiche une liste des commandes disponibles",
+      "Description": "help",
+      "Name": "help"
+    },
+    "invalid": "Invalide /commande.",
+    "Kick": {
+      "Help": "Ejecte un joueur du serveur",
+      "Description": "Ejecte un joueur du serveur.",
+      "Name": "kick"
+    },
+    "Kill": {
+      "Help": "tue un joueur du serveur",
+      "Description": "Tue un joueur sur le serveur.",
+      "Name": "kill"
+    },
+    "madeprivate": "Le serveur a maintenant été passé en privé et seuls les administrateurs peuvent y accéder. Pour faire des changements utilisez la commande makepublic ou editez le champ réservé aux administrateurs dans config.json",
+    "madepublic": "Le serveur a maintenant été passé en public et tous les joueurs peuvent y accéder. Pour faire des changements utilisez la commande pour makeprivate ou editez le champ réservé aux administrateurs dans config.json",
+    "MakePrivate": {
+      "Help": "rend le serveur privé et seuls les administrateurs peuvent y accéder.",
+      "Description": "Rend le serveur privé et seuls les administrateurs peuvent y accéder.",
+      "Name": "makeprivate"
+    },
+    "MakePublic": {
+      "Help": "rend le serveur public et tous les joueurs peuvent y accéder.",
+      "Description": "Rend le serveur public pour tous les joueurs.",
+      "Name": "makepublic"
+    },
+    "Metrics": {
+      "Help": "active ou désactive la collection des mesures",
+      "Description": "Active ou désactive la collection des mesures.",
+      "Name": "metrics"
+    },
+    "Migrate": {
+      "Help": "vous guide pour la migration de vos données de joueur ou de jeu entre sqlite and mysql",
+      "Description": "Vous guide pour la migration de vos données de joueur ou de jeu entre sqlite and mysql.",
+      "Name": "migrate"
+    },
+    "Mute": {
+      "Help": "rend un joueur aphone l'empêchant de parler",
+      "Description": "Rend un joueur aphone l'empêchant de parler.",
+      "Name": "mute"
+    },
+    "muteuser": "console",
+    "NetDebug": {
+      "Name": "netdebug"
+    },
+    "OnlineList": {
+      "Help": "montre tous les joueurs en ligne",
+      "Name": "onlinelist"
+    },
+    "Parsing": {
+      "Errors": {
+        "BadArgumentFormat": "L'argument '{00}' n'est pas un argument de forme courte ou de forme longue valide.",
+        "CommandNotFound": "La commande '{00}' n'est pas reconnue. Entrez '{01}' pour une liste de commandes.",
+        "DuplicateNamedArgument": "L'argument '{00}' a été spécifié plus d'une fois.",
+        "FlagArgumentsIgnoreValue": "'{00}' est un argument indicateur et ignorera les valeurs fournies.",
+        "GenericError": "Une erreur est apparue pendant l'analyse de la commande.",
+        "IllegalArgumentFormat": "L'argument '{00}' correspond aux deux formats d'arguments forme courte et forme longue (e.g. '{01}h' and '{02}help').",
+        "InvalidArgumentValue": "La valeur '{00}' n'est pas valide pour l'argument '{01}'.",
+        "InvalidArgumentValueWithType": "La valeur '{00}' n'est pas valide pour l'argument '{01}' (type attendu '{02}').",
+        "MissingArguments": "Il manque un ou plusieurs argument(s): {00}",
+        "MissingArgumentsDelimeter": ", ",
+        "MissingNamedArgument": "L'argument '{00}{01}' est nécessaire pour la commande '{02}' mais est manquant.",
+        "MissingPositionalArgument": "L'argument '{00}' est nécessaire pour la commande '{01}' mais est manquant.",
+        "NoInput": "Aucune entrée fournie. Si ce n'est pas le cas, veuillez reporter cet erreur.",
+        "UnhandledNamedArgument": "L'argument '{00}' n'est pas accepté pour la commande '{01}'.",
+        "UnhandledPositionalArgument": "L'argument '{00}' à la position {01} n'est pas accepté pour la commande '{02}'."
+      },
+      "Formatting": {
+        "Optional": "[{00}]",
+        "Type": ":{00}",
+        "Usage": "Utilisation: {00}"
+      },
+      "TypeNames": {
+        "Boolean": "bool",
+        "Byte": "byte",
+        "Char": "char",
+        "Decimal": "decimal",
+        "Double": "double",
+        "Int16": "short",
+        "Int32": "int",
+        "Int64": "long",
+        "Object": "object",
+        "SByte": "sbyte",
+        "Single": "float",
+        "String": "string",
+        "UInt16": "ushort",
+        "UInt32": "uint",
+        "UInt64": "ulong"
+      },
+      "TypeUnknown": "inconnu",
+      "ValueFalse": "false",
+      "ValueTrue": "true"
+    },
+    "Power": {
+      "Help": "règle l'accès adminitratif d'un joueur",
+      "Description": "Règle l'accréditation ou l'accès d'un joueur sélectionné. Power 0 est un utilisateur régulier. Power 1 est un modérateur en jeu. Power 2 est le propriétaire/designer et autorise l'accès à l'éditeur.",
+      "Name": "power"
+    },
+    "PowerAccount": {
+      "Help": "règle l'accès adminitratif d'un compte",
+      "Description": "Règle l'accréditation ou l'accès d'un compte sélectionné. est un utilisateur régulier. Power 1 est un modérateur en jeu. Power 2 est le propriétaire/designer et autorise l'accès à l'éditeur.",
+      "Name": "poweracc"
+    },
+    "RequiredInfo": "(nécessaire)",
+    "Unban": {
+      "Help": "débanni un joueur du serveur",
+      "Description": "Débanni un joueur du serveur.",
+      "Name": "unban"
+    },
+    "Unmute": {
+      "Help": "rend la parole à un joeur l'autorisant à parler",
+      "Description": "Rend la parole à un joeur l'autorisant à parler.",
+      "Name": "unmute"
+    }
+  },
+  "Crafting": {
+    "crafted": "Vous avez fabriqué {00} avec succès!",
+    "nospace": "Vous n'avez pas assez d'espace dans votre inventaire pour fabriquer {00}!"
+  },
+  "Database": {
+    "default": "Défaut",
+    "noclasses": "Pas de classe trouvée! - Création d'une classe par défaut!",
+    "nomaps": "Pas de carte trouvée! - Création d'une carte vide!",
+    "nullerror": "Vous avez tenté de charger un ou plusieurs objet(s) de jeu inexistants!",
+    "nullfound": "Vous avez tenté de charger une valeur nulle pour l'index {00} de {01}",
+    "upgradebackup": "Veuillez s'il vous plaît faire une sauvegarde de vos base de données de joueur et de jeu, tapez ensuite '{00}' pour continuer ou '{01}' quitter.",
+    "upgradeexit": "QUITTER",
+    "upgradepleasewait": "Veuillez patienter! La migration peut prendre plusieurs minutes, et peut être plus si vous utilisez une base de données MySQL!",
+    "upgradeready": "PRET",
+    "upgraderequired": "Votre base de données doit être mise à jour! Ce processus pourrait corrompre vos données de jeu si des erreurs sont rencontrées.",
+    "usingsqlite": "Utilisation d'une base de données SQLite pour le stockage de compte et de données."
+  },
+  "Errors": {
+    "errorloadingconfig": "Echec du chargement des options serveur! Pressez n'importe quelle touche pour la fermeture.",
+    "ErrorLoadingStrings": "Echec du chargement de la chaîne de caractères! Pressez n'importe quelle touche pour la fermeture.",
+    "errorlogged": "Une erreur a été reportée dans le fichier errors.log",
+    "errorservercrash": "Le serveur Intersect a rencontré une erreur et doit fermer. Les informations concernant les erreurs peuvent être trouvées en suivant le chemin resources/logs/errors.log. Pressez entrée pour quitter.",
+    "errorservercrashnohalt": "Le serveur Intersect a rencontré une erreur et doit fermer. Les informations concernant les erreurs peuvent être trouvées en suivant le chemin resources/logs/errors.log.",
+    "errortimeout": "Echec de trop de requêtes. Veuillez patienter et réessayer!",
+    "floodaverage": "[Flux]: 3+ Detections Rapides. Detections Totales: {00} [Utilisateur: {01} | Joueur: {02} | IP {03}]",
+    "floodburst": "[Flux]: {00} Paquets Eclatés [Utilisateur: {01} | Joueur: {02} | IP {03}]",
+    "floodsize": "[Flux]: Taille des Paquets: {00} [Utilisateur: {01} | Joueur: {02} | IP {03}]",
+    "warpfail": "Echec de la téléportation du joueur vers une nouvelle carte -- téléportation au point d'apparition."
+  },
+  "Events": {
+    "commandparameter": "\\param",
+    "eventnamecommand": "\\en",
+    "eventparam": "\\evtparam",
+    "eventparams": "\\evtparams",
+    "globalswitch": "\\gs",
+    "globalvar": "\\gv",
+    "militaryhour": "\\24heures",
+    "onlinecountcommand": "\\onlinecount",
+    "onlinelistcommand": "\\onlinelist",
+    "periodevening": "PM",
+    "periodmorning": "AM",
+    "playernamecommand": "\\pn",
+    "playerguildcommand": "\\pg",
+    "playerswitch": "\\ps",
+    "playervar": "\\pv",
+    "timehour": "\\heure",
+    "timeminute": "\\minute",
+    "timeperiod": "\\periode",
+    "timesecond": "\\seconde",
+    "watchdogkill": "Evènement détruit dû à une commande traitée en une seule frame dépassant le seuil limite d'évènement.  (Carte: {00}  Evènement: {01})",
+    "watchdogkillcommon": "Evènement commun détruit dû à une commande traitée en une seule frame dépassant le seuil limite d'évènement.  (Evènement {00})"
+  },
+  "Formulas": {
+    "loadfailed": "Echec du chargement des formules! Pressez n'importe quelle touche pour la fermeture.",
+    "missing": "Fichier formulas.json manquant. a généré un fichier de formules par défaut.",
+    "syntax": "Echec du chargement des formules! Veuillez s'il vous plaît vérifier que les fichiers existent et ne contiennent pas d'erreurs de syntaxe."
+  },
+  "Friends": {
+    "accept": "{00} a accepté votre demande d'ami!",
+    "alreadyfriends": "Vous êtes déjà ami avec {00}.",
+    "busy": "{00} est occupé. Veuillez s'il vous plaît réessayer plus tard!",
+    "notification": "Vous êtes maintenant ami avec {00}!",
+    "remove": "Ami retiré.",
+    "sent": "Demande d'ami envoyée."
+  },
+  "General": {
+    "Disabled": "Désactivé",
+    "DisabledLowerCase": "désactivé",
+    "Enabled": "Activé",
+    "EnabledLowerCase": "activé",
+    "none": "Aucun"
+  },
+  "Intro": {
+    "api": "L'API enquête sur '{00}'.",
+    "apifailed": "Echec du démarrage de l'API.",
+    "consoleactive": "Taper quitter pour quitter le serveur, ou aide pour une liste de commandes.",
+    "exit": "Tapez la touche entrée pour quitter.",
+    "loading": "Chargement,veuillez patienter.",
+    "started": "Serveur en fonction. Utilisant le port UDP #{00}",
+    "support": "Pour de l'aide,une assistance, ou des mises à jour visitez le site: https://www.ascensiongamedev.com",
+    "tagline": "                          moteur pour rpg 2d online gratuit",
+    "title": "Serveur Intersect",
+    "version": "Version {00}",
+    "websocketstarted": "L'écouteur Websocket à démarré pour les Clients Unity WebGL en utilisant le Port #{00}"
+  },
+  "Items": {
+    "bound": "Vous ne pouvez pas jeter cet objet.",
+    "nobag": "Vous ne pouvez pas ranger cet objet dans un sac.",
+    "nobank": "Vous ne pouvez pas stocker cet objet dans une banque.",
+    "cannotuse": "Vous ne pouvez pas utiliser cet objet!",
+    "cooldown": "Vous devez attendre avant d'utiliser cet objet à nouveau!",
+    "dynamicreq": "Vous ne remplissez pas les pré-requis pour utiliser cet objet!",
+    "equipped": "Vous ne pouvez pas jeter des objets équipés.",
+    "notenough": "Pas assez de {00}s!",
+    "notimplemented": "L'utilisation de cet objet n'a pas encore été implémentée.",
+    "sleep": "Vous ne pouvez pas utiliser cet objet en étant endormi.",
+    "statreq": "Vous ne possédez pas les bonnes compétences de combat pour utiliser cet objet.",
+    "stunned": "Vous ne pouvez pas utiliser cet objet pendant que vous êtes assommé.",
+    "NotYours": "Cet objet ne vous appartient pas!",
+    "InventoryNoSpace": "Il n'y a plus de place libre dans votre inventaire pour cet objet!"
+  },
+  "Mapping": {
+    "lastmap": "Dernière Carte",
+    "lastmaperror": "Echec de la suppression de la carte, Vous devez au moins posséder une carte en permanence!",
+    "linkfail": "Echec Liaison Carte",
+    "linkfailerror": "Echec de la liaison de la carte {00} à la carte {01}. Si cette liaison avait lieu, les cartes {02} et {03} occuperaient la même place dans le monde.",
+    "newfolder": "Nouveau Dossier"
+  },
+  "Migration": {
+    "alreadyusingengine": "   Erreur Migration: La base de données {00} utilise déjà {01}!",
+    "cancel": "   Pressez n'importe quelle autre touche pour annuler la migration.",
+    "currentlymysql": "utilise actuellement MySql",
+    "currentlysqlite": "utilise actuellement Sqlite",
+    "entermysqlinfo": "Veuillez entrer vos paramêtres de connexion Mysql:",
+    "gamedb": "Jeu",
+    "migratetomysql": "   [2] Mysql",
+    "migratetosqlite": "   [1] Sqlite",
+    "migrationcancelled": "Migration Annulée",
+    "migrationcomplete": "Migration complète! Pressez la touche entrée pour quitter.",
+    "mysql": "Mysql",
+    "mysqlconnecting": "Veuillez patienter, tentative de connexion à la base de données...",
+    "mysqlconnectionerror": "Erreur ouverture connexion db! Erreur: {00}",
+    "mysqldatabase": "Base de Données: ",
+    "mysqlhost": "Hôte: ",
+    "mysqlnotempty": "La base de données doit être vide avant la migration! Veuillez s'il vous plaît effacer toutes les grilles avant de procéder! Migration Annulée.",
+    "mysqlpass": "Mot de Passe: ",
+    "mysqlport": "Port: ",
+    "mysqltryagain": "Voulez vous tenter d'entrer à nouveau vos informations de connexion? (o/n)  ",
+    "mysqluser": "Utilisateur: ",
+    "overwritecharacter": "o",
+    "playerdb": "Joueur",
+    "selectdb": "Quelle base de donnée voulez vous migrer:",
+    "selectdbengine": "Sélectionnez le moteur où migrer la base de données {00}:",
+    "selectgamedb": "   [1] Base de Données Jeu ({00})  -  Sqlite Fortement Recommandé!",
+    "selectgamedbkey": "1",
+    "selectmysqlkey": "2",
+    "selectplayerdb": "   [2] Base de Données Joueur ({00})",
+    "selectplayerdbkey": "2",
+    "selectsqlitekey": "1",
+    "sqlite": "Sqlite",
+    "sqlitealreadyexists": "{00} existe déjà, réécrire? (o/n)  ",
+    "startingmigration": "Migration Débutée, veuillez patienter! (Il est possible que ça prenne plusieurs minutes en fonction de la taille du jeu)",
+    "stoppingserver": "Veuillez patienter, arrêt serveur, et sauvegarde de la base données actuelle...",
+    "tryagaincharacter": "o"
+  },
+  "NetDebug": {
+    "hastebin": "Informations débogage du réseau chargés dans {00} (copié dans le presse papier) partagez ce lien sur AGD pour toute demande d'aide pour mettre votre jeu en ligne!",
+    "pleasewait": "Veuillez s'il vous plaît patienter pendant le processus de diagnostique du réseau....",
+    "savedtofile": "Informations débogage du réseau sauvegardées dans le fichier netdebug.txt! Téléchargez ce fichier et partagez le sur AGD pour toute demande d'aide pour mettre votre jeu en ligne!"
+  },
+  "Networking": {
+    "badpacket": "Erreur de manutention des paquets client. Déconnexion client. Plus d'informations sont reportées dans le fichier errors.log",
+    "disconnected": "Client déconnecté.",
+    "ServerFull": "Le serveur est plein actuellement, veuillez s'il vous plaît réessayer plus tard."
+  },
+  "NotificationsNamespace": {
+    "copyright": "Copyright (C) 2020 Ascension Game Dev, Tout Droits Réservés",
+    "product": "Moteur de Jeu Intersect"
+  },
+  "Parties": {
+    "alreadydenied": "Votre invitation d'équipe à été refusée!",
+    "busy": "{00} est occupé. Veuillez s'il vous plaît réessayer plus tard!",
+    "declined": "{00} a décliné votre invitation d'équipe!",
+    "disbanded": "L'équipe a été dissoute.",
+    "inparty": "{00} est déjà dans une équipe!",
+    "joined": "{00} a rejoint l'équipe!",
+    "kicked": "Vous avez été éjecté de l'équipe!",
+    "leaderinvonly": "Seul le chef d'équipe peut envoyer des invitations à l'équipe.",
+    "left": "Vous avez quitté l'équipe.",
+    "limitreached": "Vous avez atteind le nombre maximum d'équipiers. Veuillez d'abord retirer un joueur avant d'en ajouter un autre.",
+    "memberkicked": "{00} a été éjecté de l'équipe!",
+    "memberleft": "{00} a quitté l'équipe!",
+    "notinparty": "Vous n'êtes pas dans une équipe.",
+    "outofrange": "La cible est hors de portée ou déconnectée."
+  },
+  "PasswordResetNotificationNamespace": {
+    "subject": "Moteur de Jeu Intersect - Code de réinitialisation de mot de passe"
+  },
+  "Player": {
+    "admin": "{00} a reçu des pouvoirs d'administration!",
+    "adminjoined": "Vous êtes un administrateur! Pressez Insert à n'importe quel moment pour accéder au menu d'administration ou F2 pour des informations de débogage.",
+    "adminsetpower": "Seuls les administrateurs peuvent régler l'accréditation!",
+    "beenwarpedto": "Vous avez été téléporté vers {00}.",
+    "changeownpower": "Vous ne pouvez pas altérer vos propres pouvoirs!",
+    "deadmin": "{00} a eu ses pouvoirs d'administration révoqués!",
+    "demod": "{00} a eu ses pouvoirs de modération révoqués!",
+    "haswarpedto": "{00} a été téléporté vers vous.",
+    "joined": "{00} a rejoint {01}.",
+    "kicked": "{00} a été éjecté par {01}!",
+    "killed": "{00} a été tué par {01}!",
+    "left": "{00} a quitté {01}.",
+    "levelup": "Vous êtes passé au niveau supérieur! Vous êtes maintenant niveau {00}!",
+    "mod": "{00} a reçu des pouvoirs de modération!",
+    "modjoined": "Vous êtes un modérateur! Pressez Insert à n'importe quel moment pour accéder au menu d'administration ou F2 pour des informations de débogage.",
+    "notarget": "Vous devez sélectionner une cible valide.",
+    "offline": "Utilisateur hors ligne!",
+    "powerchanged": "Votre accréditation a été modifiée!",
+    "serverkicked": "{00} a été éjecté par le serveur!",
+    "serverkilled": "{00} a été tué par le serveur!",
+    "spelltaughtlevelup": "Vous avez appris le sort {00}!",
+    "statpoints": "Vous avez {00} points de statistique disponibles pour être dépensés!",
+    "targetoutsiderange": "Cible hors de portée.",
+    "warpedto": "Téléportation vers {00}.",
+    "warpedtoyou": "{00} est téléporté vers vous."
+  },
+  "Portchecking": {
+    "accessible": "Votre jeu est accessible au public!",
+    "checkantivirus": "   2. Les programmes antivirus peuvent aussi bloquer la connection, vous devrez peut être ajouter Intersect Server.exe aux exclusions de votre antivirus.",
+    "checkfirewalls": "   1. Des firewalls bloquent peut être la connexion à votre serveur. Vérifier les firewalls de votre système. (i.e. iptables, FirewallD, Windows Firewall)",
+    "checkrouterupnp": "Apparement le processus UPnP a échoué. Vous devez peut être activer le processus UPnP de votre routeur ou configurer manuellement un port pour autoriser les connexions à votre serveur.",
+    "connectioninfo": "Information de Connexion:",
+    "debuggingsteps": "Etapes de debogage (Pour autoriser l'accès public):",
+    "letothersjoin": "Entrez votre ip publique and port into the client/editor config for others to join!",
+    "notaccessible": "Apparement votre jeu n'est pas accessible au monde extérieur.",
+    "notconnected": "   Impossible de récupérer les informations de connexion des serveurs AGD. Avez vous une connexion internet?",
+    "publicip": "   Public IP: {00}",
+    "publicport": "   Public Port: {00}",
+    "screwed": "   3. Si vous êtes sur un campus, ou sur un réseau professionnel vous n'avez probablement pas l'autorisation d'ouvrir des ports ou d'héberger des jeux vous devriez explorer des options d'hébergement externes!"
+  },
+  "Quests": {
+    "abandoned": "Quête Abandonnée: {00}!",
+    "completed": "Quête: {00} complétée!",
+    "declined": "Quête refusée: {00}!",
+    "itemtask": "{00}  mis à jour! {01}/{02} {03}(s) rassemblés!",
+    "npctask": "{00}  mis à jour! {01}/{02} {03}(s) détruit!",
+    "started": "Quête Débutée: {00}!",
+    "taskcompleted": "Tâche Complétée!",
+    "updated": "Quête: {00} mise à jour!"
+  },
+  "Regex": {
+    "email": "^(([\\w-]+\\.)+[\\w-]+|([a-zA-Z]{1}|[\\w-]{2,}))@((([0-1]?[0-9]{1,2}|25[0-5]|2[0-4][0-9])\\.([0-1]?[0-9]{1,2}|25[0-5]|2[0-4][0-9])\\.([0-1]?[0-9]{1,2}|25[0-5]|2[0-4][0-9])\\.([0-1]?[0-9]{1,2}|25[0-5]|2[0-4][0-9])){1}|([a-zA-Z]+[\\w-]+\\.)+[a-zA-Z]{2,4})$",
+    "password": "^[-_=\\+`~!@#\\$%\\^&\\*()\\[\\]{}\\\\|;\\:'\",<\\.>/\\?a-zA-Z0-9]{4,64}$",
+    "username": "^[a-zA-Z0-9]{2,20}$",
+    "guildname": "^[a-zA-Z0-9 ]{3,20}$"
+  },
+  "Shops": {
+    "bound": "Cet objet est lié à vous et ne peut être vendu!",
+    "cantafford": "Transaction echouée dû au manque de fonds.",
+    "doesnotaccept": "Ce magasin n'accepte pas cet objet!",
+    "inventoryfull": "Vous n'avez pas d'espace pour acheter cet objet!"
+  },
+  "Trading": {
+    "accepted": "Echange réussi!",
+    "alreadydenied": "Votre demande d'échange à été refusée!",
+    "bound": "Cet objet est lié à vous et ne peut pas être échangé!",
+    "busy": "{00} est occupé. Veuillez s'il vous plaît réessayer plus tard!",
+    "declined": "L'échange a été refusé!",
+    "inventorynospace": "Il n'y a plus de place libre dans votre inventaire pour cet objet!",
+    "itemsdropped": "Plus de place dans l'inventaire. Certains de vos objets ont été jeté au sol!",
+    "offerinvalid": "Objet à offrir sélectionné invalide!",
+    "RevokeNotAllowed": "Vous ne pouvez pas retirer cet objet, {00} vous avez déjà accepté l'échange!",
+    "outofrange": "La cible de l'échange est hors de portée ou déconnectée.",
+    "revokeinvalid": "Objet à retirer sélectionné invalide!",
+    "tradenospace": "Il n'y a plus d'espace libre dans la fenêtre d'échange pour cet objet!"
+  },
+  "Upnp": {
+    "failedforwardingtcp": "Echec de l'ouverture automatique du port tcp {00} en utilisant l'UPnP. (l'UPnP est possiblement désactivé sur votre routeur, ou ce port a déjà été ouvert!)",
+    "failedforwardingudp": "Echec de l'ouverture automatique du port udp {00} en utilisant l'UPnP. (l'UPnP est possiblement désactivé sur votre routeur, ou ce port a déjà été ouvert!)",
+    "forwardedtcp": "ouverture automatique réussie du port tcp {00} en utilisant l'UPnP.",
+    "forwardedudp": "ouverture automatique réussie du port udp {00} en utilisant l'UPnP.",
+    "initializationfailed": "Echec du service d'initialisation UPnP. Vous ne possédez peut être pas de routeur, ou l'UPnP est peut être désactivée sur votre routeur.",
+    "initialized": "Succès de l'initialisation du service UPnP"
+  },
+  "Guilds": {
+    "VariableNotString": "Le nom de guilde fourni ne contient pas de texte.",
+    "VariableInvalid": "Nom de guilde invalide!",
+    "VariableNoText": "Un nom de guilde ne peut pas être vide!",
+    "GuildNameInUse": "Le nom de guilde que vous avez choisi est déjà utilisé!",
+    "AlreadyInGuild": "Vous êtes déjà dans une guilde!",
+    "Welcome": "Bienvenue à {00}!",
+    "NotInGuild": "Vous n'êtes pas dans une guilde.",
+    "NotReceivedInvite": "Vous n'avez pas encore reçu d'invitation de guilde.",
+    "NotAllowed": "Vous n'avez pas la permission de faire ceci.",
+    "InviteNotOnline": "Le joueur que vous tentez d'inviter n'est sois pas connecté, soit il n'existe pas.",
+    "InviteAlreadyInGuild": "Le joueur que vous tentez d'inviter est déjà dans une guilde ou a une demande en attente.",
+    "InviteSent": "Vous avez invité {00} à rejoindre {01}!",
+    "InviteDeclinedResponse": "{00} a decliné votre demande pour rejoindre {01}.",
+    "InviteDeclined": "Vous avez décliné la demande pour rejoindre {00}.",
+    "GuildLeaderLeave": "Un maître de guilde ne peut pas quitter sa propre guilde, veuillez d'abord transférer les droits de propriété!",
+    "NoSuchPlayer": "Il n'y a aucun joueur de ce nom dans la guilde.",
+    "Promoted": "{00} a été promu {01}!",
+    "PromotionFailed": "{00} ne peut pas être promu d'avantage.",
+    "Demoted": "{00} a été rétrogradé {01}!",
+    "DemotionFailed": "{00} ne peut pas être rétrogradé d'avantage.",
+    "DisbandGuild": "{00} a été dissoute!",
+    "deleteguildleader": "Vous ne pouvez pas effacer un personnage qui est {00} dans une guilde, veuillez dissoudre la guilde ou transférer les droits de propriété avant de réessayer.",
+    "guildcmd": "/guilde",
+    "guildchat": "[{00}] {01}: {02}",
+    "Transferred": "Les droits de propriété de la guilde {00} ont été transférés de {01} à {02}!",
+    "NotAllowedWithdraw": "Vous n'avez pas la permission de retirer des objets de la banque de guilde de {00}!",
+    "NotAllowedDeposit": "Vous n'avez pas la permission de déposer des objets de la banque de guilde de {00}!",
+    "NotAllowedSwap": "Vous n'avez pas la permission d'intervertir des objets de la banque de guilde de {00}!",
+    "RankLimit": "{00} non rejointe car leur guilde est pleine!",
+    "RankLimitResponse": "Cette guilde a déjà atteind le nombre maximum de membres au rang {00}. Promouvez ou rétrogradez d'abord d'autres joueurs pour faire de la place à {01}."
+  }
+}
